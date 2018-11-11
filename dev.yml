@@ -1,5 +1,11 @@
 spring_profiles: postgresql,default
 
+encryption:
+  encryption_keys:
+  - label: uaa-encryption-key-1
+    passphrase: ((uaa_encryption_key_1))
+  active_key_label: uaa-encryption-key-1
+  
 database:
   driverClassName: org.postgresql.Driver
   url: jdbc:postgresql://${DB_PORT_5432_TCP_ADDR}:${DB_PORT_5432_TCP_PORT}/${DB_ENV_DB:postgres}
