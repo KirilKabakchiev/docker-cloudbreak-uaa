@@ -8,9 +8,9 @@ encryption:
   
 database:
   driverClassName: org.postgresql.Driver
-  url: jdbc:postgresql://${DB_PORT_5432_TCP_ADDR}:${DB_PORT_5432_TCP_PORT}/${DB_ENV_DB:postgres}
+  url: jdbc:postgresql://db:${DB_PORT_5432_TCP_PORT:5432}/${DB_ENV_DB:postgres}
   username: ${DB_ENV_USER:postgres}
-  password: ${DB_ENV_PASS:}
+  password: ${DB_ENV_PASS:postgres}
 
 oauth:
   client:
