@@ -1,9 +1,9 @@
-spring_profiles: postgresql,default
+spring_profiles: postgresql
 
 encryption:
   encryption_keys:
   - label: uaa-encryption-key-1
-    passphrase: ((uaa_encryption_key_1))
+    passphrase: uaa-encryption-key-1
   active_key_label: uaa-encryption-key-1
   
 database:
