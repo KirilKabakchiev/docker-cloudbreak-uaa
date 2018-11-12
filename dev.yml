@@ -1,4 +1,4 @@
-spring_profiles: postgresql
+spring_profiles: postgresql,default
 
 encryption:
   active_key_label: CHANGE-THIS-KEY
