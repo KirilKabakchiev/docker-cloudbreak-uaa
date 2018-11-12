@@ -1,20 +1,3 @@
-# spring_profiles: postgresql
-
-uaa:
-  # The hostname of the UAA that this login server will connect to
-  url: http://localhost:8080/uaa
-  token:
-    url: http://localhost:8080/uaa/oauth/token
-  approvals:
-    url: http://localhost:8080/uaa/approvals
-  login:
-    url: http://localhost:8080/uaa/authenticate
-    authorize:
-      url: http://localhost:8080/uaa/oauth/authorize
-
-issuer:
-  uri: http://localhost:8080/uaa
-
 encryption:
   active_key_label: CHANGE-THIS-KEY
   encryption_keys:
