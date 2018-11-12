@@ -1,7 +1,39 @@
-spring_profiles: postgresql
+# spring_profiles: postgresql
+
+uaa:
+  # The hostname of the UAA that this login server will connect to
+  url: http://localhost:8080/uaa
+  token:
+    url: http://localhost:8080/uaa/oauth/token
+  approvals:
+    url: http://localhost:8080/uaa/approvals
+  login:
+    url: http://localhost:8080/uaa/authenticate
+    authorize:
+      url: http://localhost:8080/uaa/oauth/authorize
+  limitedFunctionality:
+    enabled: false
+    whitelist:
+      endpoints:
+        - /oauth/authorize/**
+        - /oauth/token/**
+        - /check_token/**
+        - /login/**
+        - /login.do
+        - /logout/**
+        - /logout.do
+        - /saml/**
+        - /autologin/**
+        - /authenticate/**
+        - /idp_discovery/**
+      methods:
+        - GET
+        - HEAD
+        - OPTIONS
+
 
 issuer:
-  uri: http://localhost:8080
+  uri: http://localhost:8080/uaa
 
 encryption:
   active_key_label: CHANGE-THIS-KEY
@@ -10,6 +42,8 @@ encryption:
     passphrase: CHANGEME
 
 login:
+  url: http://localhost:8080/uaa
+  entityBaseURL: http://localhost:8080/uaa
   serviceProviderKey: |
     -----BEGIN RSA PRIVATE KEY-----
     MIICXQIBAAKBgQDHtC5gUXxBKpEqZTLkNvFwNGnNIkggNOwOQVNbpO0WVHIivig5
