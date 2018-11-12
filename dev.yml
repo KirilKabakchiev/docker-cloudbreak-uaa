@@ -22,8 +22,6 @@ encryption:
     passphrase: CHANGEME
 
 login:
-  url: http://localhost:8080/uaa
-  entityBaseURL: http://localhost:8080/uaa
   serviceProviderKey: |
     -----BEGIN RSA PRIVATE KEY-----
     MIICXQIBAAKBgQDHtC5gUXxBKpEqZTLkNvFwNGnNIkggNOwOQVNbpO0WVHIivig5
