@@ -59,33 +59,33 @@ jwt:
       keys:
         key-id-1:
           signingKey: |
-                    -----BEGIN RSA PRIVATE KEY-----
-                    MIIEogIBAAKCAQEAx4DV2R7rcNVB6xvblWz2rvEygw437gwy0c7FUHVjtJPhdhLb
-                    hcjufMM0s7geKMVCcu01bsOlxSMJJwj5ALo7If/po/pbCRc6GiQHlIVyZHozvvM5
-                    7GT6dUYbyWgIKVrs5Nlv8sEjk6ynvdkRJo5k2ZSpFXE7CWMezfwQrlmTU4i6QCbX
-                    y1WRcmJ9HqeUJZ+J6fdNx/k1XQsxWWoUiD+qRtwcFwK1FAhhp9Un/RthtobxlrML
-                    exRDxfqb4hANV+fJHngUhXRfi3mR7mWasrU+pRbUnZSZR0zu8jdCFqH3tGzxfGK2
-                    mGQGRhJO3PJzR/ZpuRKNBgmdLwPgPYQ9lcIRowIDAQABAoIBAASeMdUFxzNkbFMx
-                    4OJTlF42TRIFiTvkYmTC4YRcQ0ORzL078ILnRMX0isrCL0iIUGJypTL8KmEmz3Zs
-                    2b6vkODXmKPoDqVmOT0Tqm1ArYYv4fTAko2rRLTkO45s7wtuBF/DvLikydsIOxXE
-                    6YW39BOpQkSxy0kLV1IzTHuMrUFYtWhLRPmIoe/rJQgs3r4urAL956MZnuraCOLl
-                    qZdUF92pU32e0tIuBvK80Ce1lNHgUXnuD5MLK4Juwsj/ViOkTuaeClQTtEyuM9Lq
-                    5WKhuOYP0s4O0K0sikpfCT64tFrcyYuH0sBMdCCUgkYRUHJ71YM8BzfcvcRjxYWr
-                    FjuF8/kCgYEA5XGE1/01t9MZuo3+/EEENGLQIMZnhO25k7UPSMzVL1skzyBQDOmE
-                    99yM2o+xBNrMzwLTtb0qo2hjArQEsuCaihtppxBz3jYvqcgryIgGmWJidFCj7KRw
-                    jMeEu//l7DV7tkGxwo4YfDWJQ7XaM7FUwA2qQWSr2KkEpd9npjxq9ecCgYEA3pgu
-                    BRHccA7RHyg3X4Uw0UgNlnoEGf7ElODYRDlcGm9P1CUNX0ODuqrAz54Ppwhsctza
-                    L+xc9f2xt+8UGwSkZoNRxQVH/lClyu9CYFZfEqZRAKMRoFGnUPgEGMbsIH6Ur3J8
-                    l4rZ5VrZOfgU9Ibj0KPkFaXCvsOAVvtJqlCz1uUCgYAZVF3pBlAe2hQ2DyT+LiNL
-                    sTju1VhqSWA6WTu1ur8yOiqnHxcXRdRjFJsMKd7N/WWs2NAMeTSy03xSuRLnuHn3
-                    Ey2nvt47wtmiMbH7smCgIEdkNd7S6hhuwjv6ETcNy527sibwpoU3eSWNLw9Gs6X6
-                    iceo7nc2NPqJYU9s/7CDMwKBgFHeVs62iwUL7g4vlG4lZpcSkSzPI8ML2PGI4QH2
-                    ttFiL1IvboOjKUf2lYPG9qrQhlKYuAb4QBiZfkvQOuzVAEJT+jckgh4fO1swNJGK
-                    Mt2BHjnFwC3e2lMFZTxXrXEmHTmKOhjikNGyYELZ45ssIY4TOUhc9wuCjClxst5Z
-                    YEuhAoGAYQ4NP4yXiKNPfMY1GS0eQOp9GwEEi8UIKrvLaiDH657VlvNcKE5obOdQ
-                    JwxjMk67tMmnHG2Kuzv0TNIa6QOXohZaRVdEj2w6kq1jBKPWPKMy01vqaKqDt8db
-                    uZJgVyqobR9IAP91z8l8xJgcIvOhy9r+JFEuaas7hIwEWWMeaaI=
-                    -----END RSA PRIVATE KEY-----
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEogIBAAKCAQEAx4DV2R7rcNVB6xvblWz2rvEygw437gwy0c7FUHVjtJPhdhLb
+            hcjufMM0s7geKMVCcu01bsOlxSMJJwj5ALo7If/po/pbCRc6GiQHlIVyZHozvvM5
+            7GT6dUYbyWgIKVrs5Nlv8sEjk6ynvdkRJo5k2ZSpFXE7CWMezfwQrlmTU4i6QCbX
+            y1WRcmJ9HqeUJZ+J6fdNx/k1XQsxWWoUiD+qRtwcFwK1FAhhp9Un/RthtobxlrML
+            exRDxfqb4hANV+fJHngUhXRfi3mR7mWasrU+pRbUnZSZR0zu8jdCFqH3tGzxfGK2
+            mGQGRhJO3PJzR/ZpuRKNBgmdLwPgPYQ9lcIRowIDAQABAoIBAASeMdUFxzNkbFMx
+            4OJTlF42TRIFiTvkYmTC4YRcQ0ORzL078ILnRMX0isrCL0iIUGJypTL8KmEmz3Zs
+            2b6vkODXmKPoDqVmOT0Tqm1ArYYv4fTAko2rRLTkO45s7wtuBF/DvLikydsIOxXE
+            6YW39BOpQkSxy0kLV1IzTHuMrUFYtWhLRPmIoe/rJQgs3r4urAL956MZnuraCOLl
+            qZdUF92pU32e0tIuBvK80Ce1lNHgUXnuD5MLK4Juwsj/ViOkTuaeClQTtEyuM9Lq
+            5WKhuOYP0s4O0K0sikpfCT64tFrcyYuH0sBMdCCUgkYRUHJ71YM8BzfcvcRjxYWr
+            FjuF8/kCgYEA5XGE1/01t9MZuo3+/EEENGLQIMZnhO25k7UPSMzVL1skzyBQDOmE
+            99yM2o+xBNrMzwLTtb0qo2hjArQEsuCaihtppxBz3jYvqcgryIgGmWJidFCj7KRw
+            jMeEu//l7DV7tkGxwo4YfDWJQ7XaM7FUwA2qQWSr2KkEpd9npjxq9ecCgYEA3pgu
+            BRHccA7RHyg3X4Uw0UgNlnoEGf7ElODYRDlcGm9P1CUNX0ODuqrAz54Ppwhsctza
+            L+xc9f2xt+8UGwSkZoNRxQVH/lClyu9CYFZfEqZRAKMRoFGnUPgEGMbsIH6Ur3J8
+            l4rZ5VrZOfgU9Ibj0KPkFaXCvsOAVvtJqlCz1uUCgYAZVF3pBlAe2hQ2DyT+LiNL
+            sTju1VhqSWA6WTu1ur8yOiqnHxcXRdRjFJsMKd7N/WWs2NAMeTSy03xSuRLnuHn3
+            Ey2nvt47wtmiMbH7smCgIEdkNd7S6hhuwjv6ETcNy527sibwpoU3eSWNLw9Gs6X6
+            iceo7nc2NPqJYU9s/7CDMwKBgFHeVs62iwUL7g4vlG4lZpcSkSzPI8ML2PGI4QH2
+            ttFiL1IvboOjKUf2lYPG9qrQhlKYuAb4QBiZfkvQOuzVAEJT+jckgh4fO1swNJGK
+            Mt2BHjnFwC3e2lMFZTxXrXEmHTmKOhjikNGyYELZ45ssIY4TOUhc9wuCjClxst5Z
+            YEuhAoGAYQ4NP4yXiKNPfMY1GS0eQOp9GwEEi8UIKrvLaiDH657VlvNcKE5obOdQ
+            JwxjMk67tMmnHG2Kuzv0TNIa6QOXohZaRVdEj2w6kq1jBKPWPKMy01vqaKqDt8db
+            uZJgVyqobR9IAP91z8l8xJgcIvOhy9r+JFEuaas7hIwEWWMeaaI=
+            -----END RSA PRIVATE KEY-----
       # Sets the default validity for all zones
       global:
         accessTokenValiditySeconds: 3600
@@ -113,6 +113,7 @@ login:
     Wv+hpIU0ji8Mrr3iVfcCQGxBM/RNHBVGoczkbrFh7ZRTPAw1nAFwz/s9Ah/GKyez
     xMnTGk+W0mpVawaPN2x2Wxq/lGkOyCkcsnDJVZZRZVE=
     -----END RSA PRIVATE KEY-----
+  serviceProviderKeyPassword: password 
   serviceProviderCertificate: |
     -----BEGIN CERTIFICATE-----
     MIICXTCCAcYCCQDzMC8h8TvieTANBgkqhkiG9w0BAQsFADBzMQswCQYDVQQGEwJC
@@ -132,9 +133,6 @@ login:
 #The secret that an external login server will use to authenticate to the uaa using the id `login`
 LOGIN_SECRET: loginsecret
 
-jwt:
-  token:
-    signing-key: tokenKey
 database:
   driverClassName: org.postgresql.Driver
   url: jdbc:postgresql://db:${DB_PORT_5432_TCP_PORT:5432}/${DB_ENV_DB:postgres}
