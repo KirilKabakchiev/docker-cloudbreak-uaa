@@ -1,3 +1,5 @@
+spring_profiles: postgresql
+
 encryption:
   active_key_label: CHANGE-THIS-KEY
   encryption_keys:
