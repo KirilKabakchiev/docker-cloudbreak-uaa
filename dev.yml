@@ -74,4 +74,4 @@ oauth:
 scim:
   username_pattern: '[a-z0-9+\-_.@]+'
   users:
-    - admin@sequenceiq.com|admin|admin@sequenceiq.com|Default|User|openid
+    - testy|testy|admin@sequenceiq.com|Default|User|openid,scim.write,scim.read,password.write,cloud_controller.admin,uaa.admin
